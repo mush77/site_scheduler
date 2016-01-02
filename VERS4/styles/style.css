@@ -1,0 +1,97 @@
+body {
+        background: url(main1.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+
+body
+    {
+        background-image:url(main1.jpg)  no-repeat center center fixed;
+        background-repeat:no-repeat;
+        background-size:cover;
+        -webkit-transition: background 2s ease-in-out;
+        -moz-transition: background 2s ease-in-out;
+        -ms-transition: background 2s ease-in-out;
+        -o-transition: background 2s ease-in-out;
+        transition: background 2s ease-in-out;
+}
+
+a {
+         color: white;
+        text-decoration: none;
+}
+
+.text {
+    position: absolute;
+    z-index: 600;
+    top: 55%;
+    left:39.5%;
+
+    width: 30%;
+    height: 20%;
+    
+    text-align: right;
+    color: white;
+    font-family: Century Gothic;
+}
+
+/* pictures to gallery */
+.pictures {
+    background-color: green;
+    width: 50%;
+    position: relative;
+    top: 10%;
+    left: 20%;
+
+}
+
+.pictures ul {
+    
+    background-color: brown;
+    width: 30%;
+ }
+
+.pictures ul li {
+    display: inline;
+    position: relative;
+    background-color: yellow;
+    
+}
+
+.pictures ul li p {
+ 
+ }
+
+.enlarge {
+-webkit-transition: -webkit-transform 0.5s ease;
+-moz-transition: -moz-transform 0.5s ease;
+transition: transform 0.5s ease;
+}
+
+.enlarge:hover {
+    -webkit-transform: scale(1.25);
+-moz-transform: scale(1.25);
+-o-transform: scale(1.25);
+transform: scale(1.25);
+-webkit-transform-origin: top right;
+-moz-transform-origin: top right;
+-o-transform-origin: top right;
+transform-origin: top right;
+}
+ 
+#menu {
+      position: relative;
+                
+      margin-left: 20%;
+      /*margin-top: 4%;*/
+      width: 40%;
+
+}
+
+#menu li{
+          
+      display: inline-block;
+      margin-left: 4%;
+}
